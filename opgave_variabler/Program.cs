@@ -10,13 +10,15 @@ namespace opgave_variabler
     {
         static void Main(string[] args)
         {
+            // a test comment
 
-            opgave_første();
+
+            Opgave_første();
 
         }
 
 
-        public void opgave_første()
+        public void Opgave_første()
         {
 
             // opgave: https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-tal/Opgave/index.md
