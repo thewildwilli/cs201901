@@ -1,6 +1,6 @@
 ﻿namespace opgave_struct_enum
 {
-    public enum KortKulør
+    public enum Kulør
     {
         Spar, // = 0
         Hjerter, // =1
