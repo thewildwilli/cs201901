@@ -6,20 +6,11 @@ using System.Threading.Tasks;
 
 namespace opgave_variabler
 {
-    class Program
+    class variabler
     {
         static void Main(string[] args)
         {
-            // a test comment
-
-
-            Opgave_første();
-
-        }
-
-
-        public void Opgave_første()
-        {
+            
 
             // opgave: https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-tal/Opgave/index.md
 
@@ -36,7 +27,7 @@ namespace opgave_variabler
             kommatal--;
             kommatal *= 2;
             Console.WriteLine($"Kommatal = {kommatal}");
-            
+
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -45,5 +36,7 @@ namespace opgave_variabler
             }
 
         }
+
+
     }
 }
