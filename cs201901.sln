@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "website stuff", "website st
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "website stuff\WebApplication1\WebApplication1.csproj", "{01124A55-D946-4B4F-A0B6-F291330AD27E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_flow", "opgave_flow\opgave_flow.csproj", "{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{01124A55-D946-4B4F-A0B6-F291330AD27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01124A55-D946-4B4F-A0B6-F291330AD27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01124A55-D946-4B4F-A0B6-F291330AD27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
