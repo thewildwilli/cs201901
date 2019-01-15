@@ -17,15 +17,21 @@ namespace opgave_enum
             p1.Skriv();
 
 
-        }
-    }
 
-    public enum Kulør : byte
-    {
-        Spar, // = 0
-        hjerter, // =1
-        Ruder, // = 2
-        Klør // = 3
+            int kort1Værdi = 2;
+            Kulør kort1Kulør = Kulør.Hjerter;
+
+            int kort2Værdi = 2;
+            Kulør kort2Kulør = Kulør.Ruder;
+
+            Console.WriteLine(kort1Kulør);
+            Console.WriteLine(System.Convert.ToInt32(kort1Kulør));
+
+
+
+
+
+        }
     }
 
     public struct Person
