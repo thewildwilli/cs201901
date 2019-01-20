@@ -5,23 +5,27 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_variabler", "opgave_variabler\opgave_variabler.csproj", "{FE7AF7D8-B088-4C00-B902-8CB18012560F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_regnemaskine", "opgave_regnemaskine\opgave_regnemaskine.csproj", "{B699AE47-DC53-48FA-A72D-E8C821149C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_regnemaskine", "opgave_regnemaskine\opgave_regnemaskine.csproj", "{B699AE47-DC53-48FA-A72D-E8C821149C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_strenge", "opgave_strenge\opgave_strenge.csproj", "{F899DE0E-8E5F-4E91-8C71-2445D4E18503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_strenge", "opgave_strenge\opgave_strenge.csproj", "{F899DE0E-8E5F-4E91-8C71-2445D4E18503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_datetime", "opgave_datetime\opgave_datetime.csproj", "{809A9E7D-B4C2-4756-B77B-8F10F7B8BDA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_datetime", "opgave_datetime\opgave_datetime.csproj", "{809A9E7D-B4C2-4756-B77B-8F10F7B8BDA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_enum", "opgave_enum\opgave_enum.csproj", "{B4F14C0D-B5CF-42E5-B933-882FE2B3D8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_enum", "opgave_enum\opgave_enum.csproj", "{B4F14C0D-B5CF-42E5-B933-882FE2B3D8C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_struct", "opgave_struct\opgave_struct.csproj", "{4889C564-87D2-4632-805F-366A2FC00072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_struct", "opgave_struct\opgave_struct.csproj", "{4889C564-87D2-4632-805F-366A2FC00072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_struct_enum", "opgave_struct_enum\opgave_struct_enum.csproj", "{F5AB32B9-D130-439E-9942-796E131DC35B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_struct_enum", "opgave_struct_enum\opgave_struct_enum.csproj", "{F5AB32B9-D130-439E-9942-796E131DC35B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "website stuff", "website stuff", "{4CBB8B1A-FBAB-4CE7-AE75-6F3D93AA55EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "website stuff\WebApplication1\WebApplication1.csproj", "{01124A55-D946-4B4F-A0B6-F291330AD27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_flow", "opgave_flow\opgave_flow.csproj", "{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_flow", "opgave_flow\opgave_flow.csproj", "{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave_flowbreak", "Opgave_flowbreak\Opgave_flowbreak.csproj", "{4AB726DC-162F-4B0E-8E65-DF58154AC299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_metoder-simple", "opgave_metoder-simple\opgave_metoder-simple.csproj", "{E05A0300-2FCB-4939-9123-4F8F11506240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB726DC-162F-4B0E-8E65-DF58154AC299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB726DC-162F-4B0E-8E65-DF58154AC299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB726DC-162F-4B0E-8E65-DF58154AC299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB726DC-162F-4B0E-8E65-DF58154AC299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05A0300-2FCB-4939-9123-4F8F11506240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05A0300-2FCB-4939-9123-4F8F11506240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05A0300-2FCB-4939-9123-4F8F11506240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05A0300-2FCB-4939-9123-4F8F11506240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
