@@ -6,7 +6,7 @@ namespace opgave_fejlhåndtering
     {
         private static void Main(string[] args)
         {
-            Run();
+            Run2();
         }
 
         private static void Run()
@@ -72,20 +72,42 @@ namespace opgave_fejlhåndtering
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(@"Filen c:\temp\text.txt findes ikke!");
                 throw;
             }
-
-            // åbn fil og hent indhold
+            Console.WriteLine(@"Filen c:\temp\text.txt findes!");
+            // åbn fil og hent indhold, ret og gem
             try
             {
+                System.IO.FileInfo file = new System.IO.FileInfo("c:\temp\text.txt");
+
+                Console.WriteLine(System.IO.File.ReadAllText(@"c:\temp\text.txt"));
+
+                string indhold = System.IO.File.ReadAllText(@"c:\temp\text.txt");
+                Console.WriteLine("loaded");
+                int tal = Convert.ToInt32(indhold);
+                Console.WriteLine("converted");
+                tal += 1;
+
+                System.IO.File.WriteAllText(@"c:\temp\text.txt", Convert.ToString(tal));
             }
-            catch (System.FormatException ex)
+            catch (ArgumentException)
             {
+                Console.WriteLine("Argument exception");
+                throw;
+            }
+            catch (FormatException)
+            {
+                ApplicationException ex = new ApplicationException("Indhold kan ikke konverteres til et heltal.");
+
             }
             catch (Exception)
             {
+                throw;
             }
+
+
+
         }
     }
 }
