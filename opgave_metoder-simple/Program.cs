@@ -2,41 +2,18 @@
 
 namespace opgave_metoder_simple
 {
-  class Program
+    internal class Program
   {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      // kører koden nedenunder
+      Main1();
 
+      // kører koden i metoder_statistik-filen
+      Program2.Main2();
 
-
-      int LægSammen(int a, int b)
-      {
-        return a + b;
-      }
-
-      double BeregnAreal(int radius)
-      {
-        return Math.PI * radius * radius;
-      }
-
-      void Udskriv(string txt)
-      {
-        Console.WriteLine(txt);
-      }
-
-      int res = LægSammen(5, 2);
-      Console.WriteLine(res);
-      double res2 = BeregnAreal(5);
-      Console.WriteLine(res2);
-      Udskriv("Dette er en test");
-
-      OverLoadEksempler O = new OverLoadEksempler();
-
-      Console.WriteLine(O.Beregn(1,2));
-      Console.WriteLine(O.Beregn(1,2,3));
-      Console.WriteLine(O.Beregn(1,2,3,4));
-      
+      // kører koden i metoder_rekursiv-filen
+      Program3.Main3();
 
 
 
@@ -46,6 +23,82 @@ namespace opgave_metoder_simple
         Console.ReadKey();
       }
     }
+
+
+    public static void Main1()
+    {
+      Console.WriteLine("Hello World!");
+
+      int lægSammen(int a, int b)
+      {
+        return a + b;
+      }
+
+      double beregnAreal(int radius)
+      {
+        return Math.PI * radius * radius;
+      }
+
+      void udskriv(string txt)
+      {
+        Console.WriteLine(txt);
+      }
+
+      int res = lægSammen(5, 2);
+      Console.WriteLine(res);
+      double res2 = beregnAreal(5);
+      Console.WriteLine(res2);
+      udskriv("Dette er en test");
+
+      OverLoadEksempler o = new OverLoadEksempler();
+
+      Console.WriteLine(o.Beregn(1, 2));
+      Console.WriteLine(o.Beregn(1, 2, 3));
+      Console.WriteLine(o.Beregn(1, 2, 3, 4));
+
+      void printTwo(int a, int b)
+      {
+        Console.WriteLine("Første argument");
+        Console.WriteLine(a);
+        Console.WriteLine("Andet argument");
+        Console.WriteLine(b);
+      }
+
+      printTwo(b: 2, a: 1);
+
+
+      //En hurtigt defineret definition
+      Func<int, int, int> gangSammen = (int a, int b) => a * b;
+
+      (int, bool, string) test(int a)
+      {
+        return (5, true, "huhuhu");
+      }
+
+      Console.WriteLine(test(4));
+
+
+      //En rekursiv funktion
+      void testRekursiv(string path)
+      {
+        var filer = System.IO.Directory.GetFiles(path);
+        foreach (var fil in filer)
+        {
+          Console.WriteLine(fil);
+        }
+        var mapper = System.IO.Directory.GetDirectories(path);
+        foreach (var mappe in mapper)
+        {
+          testRekursiv(mappe);
+        }
+      }
+
+      testRekursiv("C:/drivers");
+
+    }
+
+
+
 
   }
 

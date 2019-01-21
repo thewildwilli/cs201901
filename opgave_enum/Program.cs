@@ -4,7 +4,7 @@ namespace opgave_enum
 {
     public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // opgavelink: https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-Enum/Opgave/index.md
 
@@ -18,11 +18,11 @@ namespace opgave_enum
 
 
 
-            int kort1Værdi = 2;
+            //int kort1Værdi = 2;
             Kulør kort1Kulør = Kulør.Hjerter;
 
-            int kort2Værdi = 2;
-            Kulør kort2Kulør = Kulør.Ruder;
+            //int kort2Værdi = 2;
+            //Kulør kort2Kulør = Kulør.Ruder;
 
             Console.WriteLine(kort1Kulør);
             Console.WriteLine(System.Convert.ToInt32(kort1Kulør));
@@ -41,7 +41,7 @@ namespace opgave_enum
 
         public void Skriv()
         {
-            Console.WriteLine($"Jeg hedder {Navn} og er {Alder} år gammel.");
+            Console.WriteLine($"Jeg hedder {this.Navn} og er {this.Alder} år gammel.");
         }
     }
 }

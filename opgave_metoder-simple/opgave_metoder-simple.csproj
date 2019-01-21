@@ -6,4 +6,10 @@
     <RootNamespace>opgave_metoder_simple</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.11" />
+    <PackageReference Include="NLog.Config" Version="4.5.11" />
+    <PackageReference Include="NLog.Schema" Version="4.5.11" />
+  </ItemGroup>
+
 </Project>

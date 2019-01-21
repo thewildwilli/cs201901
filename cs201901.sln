@@ -19,13 +19,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_struct_enum", "opgav
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "website stuff", "website stuff", "{4CBB8B1A-FBAB-4CE7-AE75-6F3D93AA55EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "website stuff\WebApplication1\WebApplication1.csproj", "{01124A55-D946-4B4F-A0B6-F291330AD27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "website stuff\WebApplication1\WebApplication1.csproj", "{01124A55-D946-4B4F-A0B6-F291330AD27E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_flow", "opgave_flow\opgave_flow.csproj", "{526C33FE-358C-4B03-AAC8-1F0F5E25D14D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave_flowbreak", "Opgave_flowbreak\Opgave_flowbreak.csproj", "{4AB726DC-162F-4B0E-8E65-DF58154AC299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_flowbreak", "Opgave_flowbreak\opgave_flowbreak.csproj", "{4AB726DC-162F-4B0E-8E65-DF58154AC299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_metoder-simple", "opgave_metoder-simple\opgave_metoder-simple.csproj", "{E05A0300-2FCB-4939-9123-4F8F11506240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_metoder-simple", "opgave_metoder-simple\opgave_metoder-simple.csproj", "{E05A0300-2FCB-4939-9123-4F8F11506240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_klasser_simpel", "opgave_klasser_simpel\opgave_klasser_simpel.csproj", "{5A19D199-0954-4C82-971B-0EF6A3E82DE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A867862F-2F87-48FC-838A-B5CE3B8CC017}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_fejlhåndtering", "opgave_fejlhåndtering\opgave_fejlhåndtering.csproj", "{5E5B5151-C392-4389-9C12-179C7563725A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +86,14 @@ Global
 		{E05A0300-2FCB-4939-9123-4F8F11506240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E05A0300-2FCB-4939-9123-4F8F11506240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E05A0300-2FCB-4939-9123-4F8F11506240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A19D199-0954-4C82-971B-0EF6A3E82DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A19D199-0954-4C82-971B-0EF6A3E82DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A19D199-0954-4C82-971B-0EF6A3E82DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A19D199-0954-4C82-971B-0EF6A3E82DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5B5151-C392-4389-9C12-179C7563725A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5B5151-C392-4389-9C12-179C7563725A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5B5151-C392-4389-9C12-179C7563725A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5B5151-C392-4389-9C12-179C7563725A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

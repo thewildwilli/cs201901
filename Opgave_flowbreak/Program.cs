@@ -2,9 +2,9 @@
 
 namespace Opgave_flowbreak
 {
-  class Program
+  internal class Program
   {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
 
       for (int tal = 0; tal < 20; tal++)
