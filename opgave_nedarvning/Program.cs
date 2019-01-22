@@ -19,6 +19,10 @@ namespace opgave_nedarvning
             // problemer med Elev
             Elev brian = new Elev(fornavn: "Brian", efternavn: "hmm");
 
+            Instruktør morten = new Instruktør(fornavn: "Morten", efternavn: "Bhbjk", nøgleId:3);
+
+            Console.WriteLine(brian.FuldtNavn());
+            Console.WriteLine(morten.FuldtNavn());
 
         }
     }
