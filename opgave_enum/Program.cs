@@ -29,8 +29,6 @@ namespace opgave_enum
 
 
 
-
-
         }
     }
 

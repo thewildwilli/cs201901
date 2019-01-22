@@ -70,7 +70,7 @@ namespace opgave_fejlhåndtering
             {
                 System.IO.File.Exists("c:\temp\text.txt");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Console.WriteLine(@"Filen c:\temp\text.txt findes ikke!");
                 throw;

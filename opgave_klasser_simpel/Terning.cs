@@ -10,25 +10,25 @@ namespace opgave_klasser_simpel
         private bool snyd;
         private static System.Random rnd = new System.Random();
 
-        internal int Skriv()
+        internal void Skriv()
         {
-            return this.værdi;
+            Console.WriteLine(this.værdi);
         }
 
-        internal int Ryst()
+        internal void Ryst()
         {
             switch (this.snyd)
             {
                 case true:
                     {
-                        return 6;
+                        this.værdi = 6;
+                        break;
                     }
                 case false:
                     {
-                        return rnd.Next(1, 7);
+                        this.værdi = rnd.Next(1, 7);
+                        break;
                     }
-                default:
-                    return 1;
             }
         }
 
@@ -38,9 +38,10 @@ namespace opgave_klasser_simpel
             this.snyd = false;
         }
 
-        public Terning(int værdi)
+        public Terning(bool snydeTerning)
         {
-            this.Værdi = værdi;
+            this.værdi = 5;
+            this.snyd = snydeTerning;
         }
 
         public int Værdi
