@@ -110,7 +110,10 @@ namespace opgave_collections
 
         public Kort FjernKort()
         {
-            return this.kortstak.Pop();
+            if (this.kortstak.Count > 0)
+                return this.kortstak.Pop();
+            else
+                return null;
         }
 
         public void Vis()
