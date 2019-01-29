@@ -46,7 +46,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_nedarvning", "opgave
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_ekstra_reflection", "opgave_generics\opgave_ekstra_reflection.csproj", "{5284B5DF-211B-4A73-B6E6-F774CA8758D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_interface", "opgave_interface\opgave_interface.csproj", "{F111A0CB-A375-4E6D-9242-B9C4334A340A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opgave_interface", "opgave_interface\opgave_interface.csproj", "{F111A0CB-A375-4E6D-9242-B9C4334A340A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_LINQ", "opgave_LINQ\opgave_LINQ.csproj", "{E625BA8F-929E-494D-9E11-0D57788C1030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_LINQ2", "opgave_LINQ2\opgave_LINQ2.csproj", "{AEF89DF1-D4D3-40D8-9E65-9EEEBB73D5CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opgave_delegate", "opgave_delegate\opgave_delegate.csproj", "{4E5D4143-CFAE-4F57-9A36-9ADB622B39EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +136,18 @@ Global
 		{F111A0CB-A375-4E6D-9242-B9C4334A340A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F111A0CB-A375-4E6D-9242-B9C4334A340A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F111A0CB-A375-4E6D-9242-B9C4334A340A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E625BA8F-929E-494D-9E11-0D57788C1030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E625BA8F-929E-494D-9E11-0D57788C1030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E625BA8F-929E-494D-9E11-0D57788C1030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E625BA8F-929E-494D-9E11-0D57788C1030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF89DF1-D4D3-40D8-9E65-9EEEBB73D5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF89DF1-D4D3-40D8-9E65-9EEEBB73D5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF89DF1-D4D3-40D8-9E65-9EEEBB73D5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF89DF1-D4D3-40D8-9E65-9EEEBB73D5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5D4143-CFAE-4F57-9A36-9ADB622B39EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5D4143-CFAE-4F57-9A36-9ADB622B39EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5D4143-CFAE-4F57-9A36-9ADB622B39EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5D4143-CFAE-4F57-9A36-9ADB622B39EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

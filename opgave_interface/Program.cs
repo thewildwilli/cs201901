@@ -127,7 +127,7 @@ namespace opgave_interface
     }
     public class SecondChild : ChildClass
     {
-        public string GetMethodOwnerName()
+        public new string GetMethodOwnerName()
         {
             return "Second level Child";
         }

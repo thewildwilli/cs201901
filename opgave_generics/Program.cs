@@ -11,24 +11,7 @@ namespace opgave_ekstra_reflection
         static void Main(string[] args)
         {
 
-            //// Noget LINQ kode- LINQ står for Language Integrated Query
-            //var mappe = new System.IO.DirectoryInfo(@"c:\temp");
-            //var filer = mappe.GetFiles("*.*", System.IO.SearchOption.AllDirectories);
-            //Console.WriteLine($"Antal filer i temp: {filer.Length:N0}");
 
-            //var res1 = from fil in filer
-            //           orderby fil.Length
-            //           group fil by fil.Extension into f
-            //           select f;
-
-            //var res2 = filer
-            //    .OrderBy(i => i.Length)
-            //    .GroupBy(i => i.Extension);
-
-            //Console.WriteLine($"Der findes {res1.Count()} forskellige extensions i mappen.");
-            //Console.WriteLine($"Der findes {res2.Count()} forskellige extensions i mappen.");
-
-            // using System.Reflection;
 
 
 
@@ -81,7 +64,7 @@ namespace opgave_ekstra_reflection
             StatusKoder.Add(8, "MegetVigtig");
 
             // Automatisk generering af enum
-            CodeCompileUnit unit = new CodeCompileUnit();
+            //CodeCompileUnit unit = new CodeCompileUnit();
 
 
 
@@ -91,66 +74,67 @@ namespace opgave_ekstra_reflection
     }
 
 
-//    public class TestKlasse
-//    {
-//        public int Id;
-//        public string Navn
-//        {
-//            get; set;
-//        }
-//        public void Test()
-//        {
-//        }
-//        public int Test1() => this.Id;
-//        public string Test2(int a, char b) => this.Navn?.ToUpper() + new string(b, a).ToUpper();
-//        public static void Test3()
-//        {
-//        }
-//        public TestKlasse()
-//        {
-//        }
+    //    public class TestKlasse
+    //    {
+    //        public int Id;
+    //        public string Navn
+    //        {
+    //            get; set;
+    //        }
+    //        public void Test()
+    //        {
+    //        }
+    //        public int Test1() => this.Id;
+    //        public string Test2(int a, char b) => this.Navn?.ToUpper() + new string(b, a).ToUpper();
+    //        public static void Test3()
+    //        {
+    //        }
+    //        public TestKlasse()
+    //        {
+    //        }
 
-//        public TestKlasse(int id, string navn)
-//        {
-//            this.Id = id;
-//            this.Navn = navn;
-//        }
-//    }
-//}
-
-
-//namespace Reflection2
-//{
-//    [MinAttribut1]
-//    public class MinKlasse
-//    {
-
-//        [MinAttribut2(1, 2)]
-//        public void Test()
-//        {
-//        }
-//    }
+    //        public TestKlasse(int id, string navn)
+    //        {
+    //            this.Id = id;
+    //            this.Navn = navn;
+    //        }
+    //    }
+    //}
 
 
-//    public class MinAttribut1 : Attribute
-//    {
-//    }
+    //namespace Reflection2
+    //{
+    //    [MinAttribut1]
+    //    public class MinKlasse
+    //    {
 
-//    public class MinAttribut2 : Attribute
-//    {
+    //        [MinAttribut2(1, 2)]
+    //        public void Test()
+    //        {
+    //        }
+    //    }
 
-//        private int a;
-//        private int b;
 
-//        public MinAttribut2()
-//        {
+    //    public class MinAttribut1 : Attribute
+    //    {
+    //    }
 
-//        }
+    //    public class MinAttribut2 : Attribute
+    //    {
 
-//        public MinAttribut2(int a = 0, int b = 1)
-//        {
-//            this.a = a;
-//            this.b = b;
-//        }
-//    }
-//}
+    //        private int a;
+    //        private int b;
+
+    //        public MinAttribut2()
+    //        {
+
+    //        }
+
+    //        public MinAttribut2(int a = 0, int b = 1)
+    //        {
+    //            this.a = a;
+    //            this.b = b;
+    //        }
+    //    }
+    //}
+}
